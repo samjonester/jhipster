@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "jhipster",
+    "packageName": "com.sam",
+    "packageFolder": "com/sam",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "4732070fc6de49c7206d1308462eeb3ce101692e",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ]
+  }
+}
